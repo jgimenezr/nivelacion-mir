@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+h1 {
+    margin: 0 0 20px;
+    color: white
+}
+
+form label {
+    display: block;
+    color: white;
+}
+
+.acciones {
+    text-align: right;
+    
+}
+
+
+#formulario {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#bd09b7 , #6b4cf5);
+    box-shadow: 10px 10px;
+}
+
+form .grupo {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    color: white;
+}
+
+input[type=email], input[type=password], select {
+    width: 100%;
+    padding: 7px;
+}
+
+
+button {
+    padding: 5px 15px;
+}
+
+@media (min-width: 500px) {
+    #formulario {
+      width: 300px;
+      margin: 40px auto;
+    }
+}
