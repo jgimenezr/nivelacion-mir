@@ -30,5 +30,5 @@ receta.ingredientes.forEach(elemento =>{
     total += elemento.cantidad
 })
 
-//imprimir totales
-console.log('Total de ingredientes de la receta: $(total) unidades')
+//imprimir cantidad total
+console.log("Total ingredientes de la receta:" + total + " unidades")
